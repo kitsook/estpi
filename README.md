@@ -10,7 +10,7 @@ If we randomly generate points within the square, the ratio of
 ```
 So pi can be estimated by:
 ```
-pi = 4 * "points inside the circle" / "total number of the points"
+pi = 4 * "points inside the circle" / "total number of points"
 ```
 For ease of calculation, we can just consider a quarter of the circle with r = 1 and the enclosing square with sides of 1.
 
@@ -18,5 +18,7 @@ For ease of calculation, we can just consider a quarter of the circle with r = 1
 * `estpi.py`: simple serial calculation with `for` loop
 * `estpi_ray.py`: parallel calculation with [ray farmework](https://github.com/ray-project/ray)
 
+## Java
+* `EstimatePiFuture`: async computation with CompletableFuture
 
 *TODO Other languages*
